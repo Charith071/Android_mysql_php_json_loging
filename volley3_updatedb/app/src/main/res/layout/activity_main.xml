@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#997300"
+    tools:context="com.example.charith.volley3_updatedb.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#00ffff"
+        android:gravity="center"
+        android:text="LOGING"
+        android:textColor="#000000"
+        android:textSize="27dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usernametxt_id"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="58dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/pwdtxt_id"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernametxt_id" />
+
+    <Button
+        android:id="@+id/logbtn_id"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="114dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="50dp"
+        android:text="Loging"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwdtxt_id" />
+
+    <TextView
+        android:id="@+id/newusertxt_id"
+        android:layout_width="250dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="46dp"
+        android:textColor="#0000ff"
+        android:text="If you are new User Click Here.."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logbtn_id" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,5 @@
+1	volley3_updatedb is a androide file ,it can be open using androide stuido..
+2	Afac is a server file...copy and pate it into your server public directory...
+3 	copy the path to loging.php..& register.php
+4	paste it into volly2 maain activity url.s;
+5   databse will create auto ,when u run this application.. 
